@@ -19,7 +19,7 @@
 
                 <img src="assets/images/k8s.png" width="200" valign="center">
 
-                <h3> To zaczyna byc ciekawe! </h3>
+                <h3> To zaczyna byc ciekawe! Nawet bardzo!</h3>
                 
                 <?php
 
