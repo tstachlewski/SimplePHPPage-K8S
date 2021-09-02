@@ -3,7 +3,6 @@ version: 0.2
 phases:
   pre_build:
     commands:
-      - cat index.php 
       - echo Logging in to Amazon ECR...
       - aws --version
       - aws ecr aws ecr get-login-password --region eu-west-1 | docker login --username AWS --password-stdin 213141549337.dkr.ecr.eu-west-1.amazonaws.com
