@@ -17,9 +17,9 @@
             <div class="hero-unit">
 
 
-                <img src="assets/images/k8s.png" width="200" valign="center">
+                <img src="assets/images/logo.png" width="200" valign="center">
 
-                <h3> To zaczyna byc ciekawe! Nawet bardzo!</h3>
+                <h3> KONIEC</h3>
                 
                 <?php
 
