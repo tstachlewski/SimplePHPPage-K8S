@@ -19,7 +19,7 @@
 
                 <img src="assets/images/k8s.png" width="200" valign="center">
 
-                <h3> Pierwsze kroki z Kubernetesem na AWS </h3>
+                <h3> Pierwsze kroki z Kubernetesem na AWS v2 </h3>
                 
                 <?php
 
