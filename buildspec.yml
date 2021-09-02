@@ -23,5 +23,7 @@ phases:
       - docker push $REPOSITORY_URI:$IMAGE_TAG
       - echo Writing image definitions file...
       - printf '[{"name":"PHP-Container-Page","imageUri":"%s"}]' $REPOSITORY_URI:$IMAGE_TAG > imagedefinitions.json
+      - aws eks --region eu-west-1 update-kubeconfig --name awsmasters-k8s
+      - kubectl get pods
 artifacts:
     files: imagedefinitions.json
